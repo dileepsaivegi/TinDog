@@ -1,0 +1,182 @@
+ml-auto, .ms-auto{
+    margin-left: auto !important;
+    }
+
+.colored-section{
+  background-color: #FD841F;
+  color: white;
+  padding-bottom: 15%;
+}
+
+
+
+
+/* navbar section */
+
+.navbar{
+    padding-bottom: 3.5rem;
+}
+.navbar-brand{
+  padding-left: 0;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+.nav-item{
+  padding: 20px;
+}
+
+.nav-link{
+color: #fff;
+}
+
+/* title section */
+
+
+#title {
+  background-color: #FD841F;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+.right-c{
+  position: relative;
+ padding:1px;
+}
+.img1 {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+  /* text-align: center; */
+
+@media (min-width:600px) and (max-width:1000px) {
+  #title{
+    text-align: center;
+  }
+  .img1{
+    transform: rotate(0);
+    position: static;
+    width: 40%;
+  }
+}
+
+
+/* fecture section */
+#features{
+  background-color: white;
+  padding:10% 5%;
+  height: 50%;
+  position: relative;
+  z-index: 1;
+}
+
+sec-ico{
+  align-content: center;
+  margin: 0;
+  padding-bottom:20px;
+
+}
+.sec-ico:hover{
+  color:#E14D2A;
+}
+
+.down-ico{
+    margin:5% 3% 2%;
+}
+
+
+/* testimonial-section */
+#testimonials{
+  font-family: "Montserrat-bold";
+  padding: 7% 15%;
+  padding-bottom: 20px;
+}
+
+.testimonial-image{
+  margin-top: 1%;
+  height: 10rem;
+  border-radius:60%;
+  margin-bottom: 30px;
+  padding-right: 5px;
+}
+/* .testi{
+    text-align: center;
+} */
+
+
+#press{
+  padding-bottom:2%;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.arrows{
+    padding: 7% 15%;
+}
+
+.press-logo{
+  width:15%;
+  padding: 3%;
+}
+
+.card-3{
+  line-height: 0.90rem;
+}
+
+/* call to action */
+#cta{
+    font-family: "Montserrat-bold";
+    padding: 10% 5%;
+}
+
+.quote{
+  color: white;
+}
+
+/* footer */
+#footer{
+  font-family: "Montserrat";
+  background-color: #fff;
+  line-height: 2rem;
+font-size: 10px;
+}
+
+.f-icons{
+  padding: 5% 2% 1%;
+  size:10px;
+}
+
+
+h2{
+  padding:40px 36px 20px 20px;
+  font-size: 2rem;
+  line-height:3rem;
+  margin-bottom: 0;
+}
+
+body{
+  font-family: 'Montserrat-Black', sans-serif;
+  text-align: center;
+}
+
+h1,h3{
+  font-family: "Montserrat";
+}
+
+h1{
+   line-height: 1.5;
+   font-size: 3rem;
+}
+
+h3{
+  padding-top: 10px;
+}

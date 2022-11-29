@@ -1,2 +1,1 @@
-# TinDog
-Responsive according to the screen szie
+TinDog Starting Files
